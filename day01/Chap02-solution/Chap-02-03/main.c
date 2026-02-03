@@ -8,7 +8,7 @@ int main(void)
 	printf("int의 최솟값: %d\n", INT_MIN);
 	printf("%d\n",12); //10진수 12
 	printf("%d\n",014); // 8진수(숫자 앞에 0)12
-	printf("%d\n",0xC); // 16진주(숫자 앞에0x) 12
+	printf("%d\n",0xC); // 16진수(숫자 앞에0x) 12
 	printf("%o\n", 12); //12를 8진수로 표현
 	printf("%X\n", 12); // 12를 16진수로 표현
 	
