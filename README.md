@@ -73,3 +73,15 @@ Visual Studio 사용시 주의 사항(solution 안에 project가 있다)
         - 실수형: [확인](./day02/Chap03-Solution/Chap03-02-app/main.c)
         -데이터 입력:[확인](./day02/Chap03-Solution/Chap03-03-app/main.c)
    - 연산     
+
+
+   ## 3일차
+   ### c기본 문법 계속
+   1. 제어문 - 선택문/분기문
+     -if 문:
+     -switch~case문: [확인](/day03/Chap05-Solution/Chap05-02-app/main.c)
+
+   2. 반복문
+      -while, do ~while문: [확인](/day03/Chap05-Solution/Chap05-03-app/main.c)
+
+   3.디버깅의 기본   
