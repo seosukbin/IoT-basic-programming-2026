@@ -85,3 +85,36 @@ Visual Studio 사용시 주의 사항(solution 안에 project가 있다)
       -while, do ~while문: [확인](/day03/Chap05-Solution/Chap05-03-app/main.c)
 
    3.디버깅의 기본   
+
+   ##4일차
+
+   ### C 기본 문법 계속
+   1. 함수 계속
+    - 함수 유형: [확인](./day03/Chap07-Solution/Chap07-02-app/main.c)
+         - 매개 변수가 없는 함수
+         - 반환 값이 없는 함수
+         - 매개 변수와 반환값이 없는 함수
+         - 매개 변수, 반환값이 있는 함수
+   - 재귀 호출 함수[확인](./day03/Chap07-Solution/Chap07-03-app/main.c)      
+   2. 배열
+      -동일 자료형의 묶음 - 'ary[10]'
+      - 배열 선언, 초기화: [확인](./day03/Chap08-Solution/Chap08-01-app/Chap08-01-app.vcxproj)
+      -문자 배열(문자열)[확인](./day03/Chap08-Solution/Chap08-02-app/main.c)
+      - 대소문자 변환: [확인](./day03/Chap08-Solution/Chap08-quiz/main.c)
+   3. 포인터
+      -   #include <stdio.h>
+
+int main(void)
+{
+	int a;
+	int* pa; // 포인터 변수는 값은 담는것이 아닌 다른 변수의 주소를 담는다.
+	pa = &a; // a의 주소를 pa에 저장한다.
+	// 포인터가 가리키는 변수에다가 값을 지정한다.
+	*pa = 100; 
+	// 지금 위에서 a 변수의 주소를 포인터 변수에 저장이 되어 있고 pa에 100을 넣었기 때문에 a의 주소에 100을 넣었기 때문에 a에 100이 들어가 있다.
+	printf("a값 출력 : %d\n", a);
+
+
+	printf("변수 a의 주소: %d\n", &a);
+	printf("포인터 변수 pa의 값: %u\n", pa);
+}
