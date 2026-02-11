@@ -12,7 +12,7 @@ int main(void)
 {
 	struct student st1; //구조체 student형 변수로 선언
 	st1.num = 2;
-	st1.grade = 4.5l;
+	st1.grade = 4.5;
 
 	printf("학번: %d\n", st1.num);
 	printf("학점: %.1f\n", st1.grade);
