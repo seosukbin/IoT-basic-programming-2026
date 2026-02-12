@@ -164,3 +164,68 @@ int main(void)
 	printf('\n');
 }
 */
+
+
+
+/*
+int main(void)
+{
+	char str[80];
+
+	printf("문자열을 입력하세요: ");
+	scanf("%s", str);
+	printf("첫번째 단어: %s\n", str);
+	scanf("%s", str);
+	printf("두번째 단어: %s\n", str);
+}
+
+*/
+
+
+
+
+
+//gets함수는 중간에 공백이 필요할때 사용하는 scan 함수, 그리고 gets 함수는 enter를 누르는 순간 개행 문자(\n)도 같이 저장된다
+// 하지만 gets를 통해 str에 저장 될때는 널 문자로 바뀐다. 
+/*
+int main(void) //
+{
+	char str[80];
+	printf("공백이 포함된 문자열 입력: ");
+	gets(str);
+	printf("입력한 문자열은 %s입니다. ", str);
+	return 0;
+}
+
+*/
+
+//gets함수는 기존 배열보다 큰 문자열을 받을수도 있기 때문에 위험해서
+//fgets는  최대 배열의 크기 까지만 문자열을 입력 할수 있다
+
+/*
+int main(void)
+{
+	char str[80];
+	printf("공백이 포함된 문자열 입력: ");
+	fgets(str, sizeof(str), stdin); // str은 배열명이고 sizeof(str)은 배열의 크기확인,stdin은 표준 입력
+	str[strlen(str) - 1] = '\0';
+	printf("입력된 문자열은 %s입니다.\n", str); //fgets는 enter를 누르면 개행 문자가 포함되고 str에 저장 될때는 개행문자와 null문자가 같이 저장된다.
+}
+
+*/
+
+
+/*
+int main(void)
+{
+	int age;
+	char name[20];
+	printf("나이 입력: ");
+	scanf("%d", &age);
+	printf("이름 입력: ");
+	getchar();// scanf와 getchar,gets,fgets는 버퍼를 공유 하기 때문에 scanf에서 값을 입력하면 개행를 제외하고 받아 들이기 때문에 다음 버퍼를 사용할때는 null이 먼저 들어 오기 때문에
+			  // 입력이 되지 않는다. 그래서 getchar()를 사용하면 개행 문자를 사용하기 때문에 사라지므로 다음 입력이 가능하다.
+	gets(name);
+	printf("나이: %d, 이름: %s\n", age, name);
+}
+*/
