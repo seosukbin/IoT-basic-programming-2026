@@ -106,6 +106,8 @@ void print_ary(int* pa, int size)
 }
 
 */
+
+/*
 void input_ary(double* pa, int size);
 double find_max(double* pa, int size);
 
@@ -133,3 +135,32 @@ void input_ary(double* pa, int size)
 	}
 }
 
+
+*/
+/*
+int main(void)
+{
+	printf("apple이 저장된 시작 주소 값: %p\n", "apple");
+	printf("두번째 주소 주소 값: %p\n", "apple" +1);
+	printf("첫번째 문자: %c\n", *"apple");
+	printf("두번째 문자: %c\n", *("apple"+1));
+}
+
+*/
+/*
+int main(void)
+{
+	char* dessert = "apple";
+
+	printf("오늘 후식은 %s입니다.", dessert);
+	dessert = "banana";
+	printf("다음 후식은 %s입니다. ",dessert);
+
+	while (*dessert != '\0')
+	{
+		putchar(*dessert);
+		dessert++;
+	}
+	printf('\n');
+}
+*/
