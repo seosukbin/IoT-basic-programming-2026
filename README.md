@@ -237,19 +237,19 @@ int main(void)
 -fopen()이후 fclose()이전에 탐색기 등에서 파일에 접근하면 파일을 열수가 없다
 ![alt text](image-7.png)
 
--fseek()함수 사용시
+-fseek()함수 사용시[소스](./Day09/Chap18-Solution/Chap18-03-app/main.c)
 - SEEK_SET - 파일의 최초 위치
 - SEEK_CUR - 파일의 현재 위치
 - SEEK_END - 파일의 마지막 위치
 
-7. 전처리, 분할 컴파일
+7. 전처리, 분할 컴파일[소스](./Day09/Chap19-Solution/Chap19-01-app/main.c)
 
 - #include - 파일 포함 지시자. 내장 헤더 파일은  <>로 사용자 헤더 파일은 "" 사용
 - #define - 새로 정의하는 지시자, 자주 사용될 상수값을 정의할때 많이 사용 
 - #line - 라인 번호 재정의,파일명 재정의 지시자
 - #pragma- 컴파일러의 컴파일 방법을 세부적으로 제어할때 사용
 
-8. 분할 컴파일
+8. 분할 컴파일[소스](./Day09/Chap19-Solution/Chap19-04-app/main.c)
 - 여러 파일을 분할 해서 여럿이 같이 개발, 프로그램 크리 줄이기, 코드 재활용 등
 - 전역 변수 static- 외부에 공개 하지 않는 내부용 정적 변수
 - extern을 사용할때는 static 전역 변수를 사용 해서느 안된다
