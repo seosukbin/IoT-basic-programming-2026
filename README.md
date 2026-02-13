@@ -254,5 +254,5 @@ int main(void)
 - 전역 변수 static- 외부에 공개 하지 않는 내부용 정적 변수
 - extern을 사용할때는 static 전역 변수를 사용 해서느 안된다
 
-9. 헤더파일 필요성, 중복 문제 해결
+9. 헤더파일 필요성, 중복 문제 해결[소스](./Day09/Chap19-Solution/Chap19-04-app/main.c)
    - 
