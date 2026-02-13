@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="AddressBook_step1/AddressBook_step1.vcxproj" />
+  <Project Path="AddressBook_step2/AddressBook_step2.vcxproj" />
+  <Project Path="AddressBook_step3/AddressBook_step3.vcxproj" />
+  <Project Path="AddressBook_step4/AddressBook_step4.vcxproj" />
+</Solution>
