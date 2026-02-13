@@ -1,5 +1,5 @@
-extern int count;
-extern int total;
+extern int count; //main.c에 있는 변수를 사용
+extern int total; // input.c에 있는 변수를 사용
 
 double average(void)
 {
