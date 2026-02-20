@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{89b0752a-840c-46ec-a6f5-f2ecb4fd0ea2}</ProjectGuid>
-    <RootNamespace>Addressbookstep6</RootNamespace>
+    <ProjectGuid>{D04F7D93-AC8A-43D1-85D5-B2D0CF33F9E9}</ProjectGuid>
+    <RootNamespace>Addressbookstep1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
