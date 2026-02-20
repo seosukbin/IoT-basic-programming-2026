@@ -1,45 +1,50 @@
-//switch ~case��
-#include <stdio.h>
+﻿// switch~case 구문
 #define _CRT_SECURE_NO_WARNINGS
-int main(void)
-{
-	int rank = 0, money = 0;
-	printf("����� �Է� �ϼ���\n");
-	scanf_s("%d", &rank);
 
-	/*
-	switch (rank)
-	{
-	case 1:
-		money = 300;
-		break;
+#include <stdio.h>
 
-	case 2:
-		money = 200;
-		break;
-	case 3:
-		money = 100;
-		break;
-	default:
-		money = 0;
+int main() {
+	//printf("switch~case 구문 시작하기\n");
 
+	int rank = 0, money = 0; // 순위, 당첨금
+	printf("순위를 입력하세요 ");
+	scanf("%d", &rank);
+
+	//switch (rank) {
+	//case 1:  // 1등
+	//	money = 1000; // 1000만원
+	//	break;  // switch문 탈출(빠져나가기)!! break문은 필수!!
+	//case 2:
+	//	money = 500; // 500만원
+	//	break;
+	//case 3:
+	//	money = 200;
+	//	break;
+	//case 4:
+	//	money = 50;
+	//	break;
+	//default:  // if문의 else와 동일
+	//	money = 10;
+	//	break;
+	//}
+
+	if (rank == 1) {
+		money = 1000;
 	}
-	*/
-
-	if (rank == 1)
-
-		money = 300;
-
-	else if (rank == 2)
+	else if (rank == 2) {
+		money = 500;
+	}
+	else if (rank == 3) {
 		money = 200;
+	}
+	else if (rank == 4) {
+		money = 50;
+	}
+	else {
+		money = 10;
+	}
 
-	else if (rank == 3)
-		money = 100;
-
-	else
-		money = 0;
-
-	printf("���: %d\n", money);
+	printf("%d등 당첨 %d만원 지급되었습니다.\a\n", rank, money);
 
 	return 0;
 }

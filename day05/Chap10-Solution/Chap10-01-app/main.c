@@ -1,11 +1,9 @@
-﻿﻿// 배열과 포인터
+﻿// 배열과 포인터
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
-
-int main(void) 
-{
+int main(void) {
 	int ary[3];
 	int i;
 
@@ -42,7 +40,7 @@ int main(void)
 	printf("%d\n", ary[2]);
 
 	// 배열요소 포인터형식으로 입력
-	printf("정수 입력: \n");
+	printf("정수 입력 : ");
 	scanf("%d", ary + 2);
 	printf("%d\n", *(ary + 2));
 

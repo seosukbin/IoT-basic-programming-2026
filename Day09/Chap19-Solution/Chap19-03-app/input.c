@@ -1,27 +1,27 @@
-//ÀÔ·Â¿ë ¼Ò½º ÄÚµå
+ï»¿// ì…ë ¥ìš© ì†ŒìŠ¤ì½”ë“œ
+
 #define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
 
-//externÀº ¿ÜºÎ¿¡ ÀÖ´Â°ÍÀ» °¡Á® ¿Í¶ó
+#include <stdio.h>
 
-extern int count; // main.c¿¡ ÀÖ´Â º¯¼ö¸¦ °øÀ¯
-int total;
+// extern!! ì™¸ë¶€ì— ìˆëŠ” ê²ƒì„ ê°€ì ¸ì™€ë¼!
+extern int count;   // main.cì— ì„ ì–¸í•œ ë³€ìˆ˜ë¥¼ ê³µìœ 
+int total;			// ì „ì—­ë³€ìˆ˜
 
-int input_data(void)
-{
+int input_data(void) {
 	int pos;
-	while (1)
-	{
-		printf("¾ç¼ö ÀÔ·Â:");
-		scanf("%d,",&pos);
-		if (pos < 0)
-		{
+
+	while (1) {
+		printf("ì–‘ìˆ˜ ì…ë ¥ : ");
+		scanf("%d", &pos);
+
+		if (pos < 0) {
 			break;
 		}
+
 		count++;
-		total += pos;
-
+		total += pos;   // í•©ì‚°
 	}
-	return total;
 
+	return total;
 }

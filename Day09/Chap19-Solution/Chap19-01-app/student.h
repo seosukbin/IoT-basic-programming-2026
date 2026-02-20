@@ -1,7 +1,7 @@
-//»ç¿ëÀÚ Á¤ÀÇ Çì´õ ÆÄÀÏ - student.h
+ï»¿// ì‚¬ìš©ì ì •ì˜ í—¤ë”íŒŒì¼ - student.h
+typedef struct _student {
+	int num;			// í•™ë²ˆ
+	char name[20];		// ì´ë¦„
+} Student; 
 
-typedef struct _student
-{
-	int num;
-	char name[20];
-}Student;
+#pragma once

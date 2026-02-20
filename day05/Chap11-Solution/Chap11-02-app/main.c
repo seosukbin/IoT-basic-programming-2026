@@ -1,4 +1,4 @@
-﻿﻿// 문자 입력 실수
+﻿// 문자 입력 실수
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>

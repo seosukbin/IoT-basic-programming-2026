@@ -1,7 +1,8 @@
-extern int count; //main.c¿¡ ÀÖ´Â º¯¼ö¸¦ »ç¿ë
-extern int total; // input.c¿¡ ÀÖ´Â º¯¼ö¸¦ »ç¿ë
+ï»¿// í‰ê·  ê³„ì‚° ì†ŒìŠ¤ì½”ë“œ
 
-double average(void)
-{
+extern int count;    // main.cì— ì„ ì–¸í•œ ë³€ìˆ˜ë¥¼ ê³µìœ 
+extern int total;    // input.cì˜ totalì„ ê°€ì ¸ì™€ì„œ ê³µìœ 
+
+double average(void) {
 	return total / (double)count;
 }

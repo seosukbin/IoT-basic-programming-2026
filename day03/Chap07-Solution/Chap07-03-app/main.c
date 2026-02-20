@@ -1,25 +1,27 @@
-﻿#include <stdio.h>
+﻿// 재귀호출 함수
 
-void fruit(void);
-void fruit2(int);
+#include <stdio.h>
 
+void fruit(void);   // 함수 선언
+void fruit2(int);   // 종료레벨 매개변수로 받는 재귀호출 함수 정의
 
-int main(void)
-{
-	fruit();
+int main(void) {
+
+	//fruit();
 	fruit2(1);
 	return 0;
 }
-void fruit(void)
-{
-	printf("banana\n");
-	
+
+void fruit2(int count) {
+	printf("apple\n");
+	if (count == 3) {
+		return; // 함수 호출한 곳으로 되돌아가지만 반환값은 없음
+	}
+	fruit2(count + 1);
 }
 
-void fruit2(int count) // 반환형이 없는 경우 
-{
-	printf("apple\n");
-	if (count == 3);
-		return; // 반환값이 없다라는 의미
-	fruit2(count + 1);
+void fruit(void) {
+	static int i = 1;
+	printf("banana, %d\n", i++);
+	fruit();   // 재귀호출
 }

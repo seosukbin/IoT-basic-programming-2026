@@ -1,4 +1,4 @@
-﻿﻿// 문자
+﻿// 문자
 
 #include <stdio.h>
 

@@ -3,9 +3,11 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Chap-quiz/Chap-quiz.vcxproj" Id="7f0600de-5cf5-44ef-ae9a-fa4a99efc590" />
-  <Project Path="Chap05-03-app/Chap05-03-app.vcxproj" Id="1eba49d5-a63c-4b5c-b427-235f6a653b50" />
-  <Project Path="Chap05-04-app/Chap05-04-app.vcxproj" Id="af7a8d87-6e9b-4ce7-b754-766202fae3f8" />
-  <Project Path="Chap05-05-app/Chap05-05-app.vcxproj" Id="6a6b123e-53d4-42e3-b9cd-bc8cff2b7a83" />
-  <Project Path="ConsoleApplication1/ConsoleApplication1.vcxproj" Id="2afa39b2-39a8-4670-a9a1-eaf1de1a89a7" />
+  <Project Path="Chap05-01-app/Chap05-01-app.vcxproj" />
+  <Project Path="Chap05-02-app/Chap05-02-app.vcxproj" />
+  <Project Path="Chap05-03-app/Chap05-03-app.vcxproj" />
+  <Project Path="Chap05-04-app/Chap05-04-app.vcxproj" />
+  <Project Path="Chap05-05-app/Chap05-05-app.vcxproj" />
+  <Project Path="Chap05-06-app/Chap05-06-app.vcxproj" />
+  <Project Path="Chap05-07-app/Chap05-07-app.vcxproj" />
 </Solution>

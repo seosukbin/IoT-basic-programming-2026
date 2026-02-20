@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1032f23f-a7fc-479e-b2da-8ec869ea9fdb}</ProjectGuid>
+    <ProjectGuid>{171e1e6c-a241-41ff-a015-b243bc0f1710}</ProjectGuid>
     <RootNamespace>Chap1904app</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

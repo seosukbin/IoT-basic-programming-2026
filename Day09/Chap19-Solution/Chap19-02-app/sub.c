@@ -1,18 +1,19 @@
+ï»¿// ë¶„í• ì»´íŒŒì¼ - ë³´ì¡°ì†ŒìŠ¤ì½”ë“œ
 #define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
 
-void input_data(int* pa, int* pb)
-{
-	printf("µÎ Á¤¼öÀÇ ÀÔ·Â: ");
+#include <stdio.h>
+
+void input_data(int* pa, int* pb) {
+	printf("ë‘ ì •ìˆ˜ ì…ë ¥ : ");
 	scanf("%d%d", pa, pb);
-
 }
-double average(int a, int b)
 
-{
-	double avg;
+double average(int a, int b) {
 	int tot;
+	double avg;
+
 	tot = a + b;
 	avg = tot / 2.0;
+
 	return avg;
 }

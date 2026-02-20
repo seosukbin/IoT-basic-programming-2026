@@ -1,11 +1,9 @@
-#ifndef _POINT_H_ // _POINT_H_ ¸ÅÅ©·Î¸íÀÌ Á¤ÀÇ µÇÁö ¾Ê¾ÒÀ¸¸é Á¤ÀÇ ÇÏ°Ú´Ù.
-#define _POINT_H_
+ï»¿#ifndef _POINT_H_    // _POINT_H_ ë§¤í¬ë¡œëª…ì´ ì •ì˜ë˜ì§€ ì•Šì•˜ìœ¼ë©´
+#define _POINT_H_	 // _POINT_H_ ë§¤í¬ë¡œ ì •ì˜
 
-typedef struct
-{
-	int x;
-	int y;
-
-}Point;
+typedef struct {
+	int x;      // xì¢Œí‘œ
+	int y;		// yì¢Œí‘œ
+} Point;
 
 #endif

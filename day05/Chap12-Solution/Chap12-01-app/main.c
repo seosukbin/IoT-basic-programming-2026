@@ -1,7 +1,7 @@
-﻿﻿// 문자열과 포인터
+﻿// 문자열과 포인터
 
 #include <stdio.h>
-
+#include <string.h>
 int main(void) {
 	// 문자열 출력
 	printf("%s\n", "apple");
